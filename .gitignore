@@ -1,0 +1,82 @@
+# =========================
+# Python cache & compiled files
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.env/
+.env.*
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# Databases & local data
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+data/
+!data/.gitkeep
+
+# =========================
+# Models & artifacts
+# =========================
+models/
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# =========================
+# Logs & temp files
+# =========================
+logs/
+*.log
+tmp/
+temp/
+
+# =========================
+# IDE & OS files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Frontend build (if any)
+# =========================
+frontend/dist/
+frontend/node_modules/
+
+# =========================
+# Secrets & credentials
+# =========================
+*.pem
+*.key
+*.crt
+credentials.json
+
+# =========================
+# Misc
+# =========================
+*.zip
+*.tar
+*.tar.gz
+
+# Local environment files
+.env

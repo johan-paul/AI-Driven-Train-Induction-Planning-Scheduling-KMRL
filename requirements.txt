@@ -1,0 +1,14 @@
+streamlit>=1.20
+pandas
+numpy
+python-dateutil
+fastapi
+uvicorn[standard]
+sqlalchemy
+alembic
+pydantic
+pandas
+python-dateutil
+apscheduler
+joblib
+scikit-learn
